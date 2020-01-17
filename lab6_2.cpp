@@ -22,7 +22,6 @@ int main(){
     getline(cin,date);
     cout << "Fahsai: " << date << "....that is OK!!! I'm looking forward to watch " << movie << " with you.\n";
     cout << name << ": ";
-    cin.ignore();
     getline(cin,phrase);
     cout << "Fahsai: 555+ see you " << date << ". Bye Bye \(^ ^)/\n"; 
 

@@ -7,7 +7,7 @@ char before(char x){
 		return 'Z';
 	}
 	else{
-		if((int)x>64&&(int)x<91)
+		if((int)x>='A'&&(int)x<='Z')
 		{
 			in = x-1;
 			return in;
